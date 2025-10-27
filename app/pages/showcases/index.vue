@@ -20,7 +20,7 @@
                     <h3 class="text-xl font-medium">
                         {{ showcase.name }}
                     </h3>
-                    <p class="text-white/60">
+                    <p class="text-fg/60">
                         {{ showcase.description }}
                     </p>
                     <UButton
