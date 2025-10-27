@@ -1,0 +1,28 @@
+{
+  "name": "web",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/ui": "^4.1.0",
+    "@tailwindcss/vite": "^4.1.16",
+    "github-markdown-css": "^5.8.1",
+    "markdown-it": "^14.1.0",
+    "nuxt": "^4.2.0",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "vite-svg-loader": "^5.1.0"
+  }
+}
