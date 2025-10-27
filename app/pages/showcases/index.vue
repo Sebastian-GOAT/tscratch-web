@@ -5,7 +5,7 @@
             TScratch Showcases
         </h1>
 
-        <ul role="list" class="flex flex-col gap-8">
+        <ul role="list" class="w-4/5 flex flex-col gap-8">
 
             <li
                 v-for="(showcase, i) in showcases"
