@@ -21,7 +21,7 @@
 .dark {
     --secondary: #908aff;
 
-    --bg: #070722;
+    --bg: #050517;
     --fg: white;
 }
 

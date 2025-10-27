@@ -1,8 +1,8 @@
 <template>
     <Header />
     <div>
-        <DocsSidebar class="w-[200px]" />
-        <div class="ml-[200px]">
+        <DocsSidebar class="w-[50px] md:w-[200px]" />
+        <div class="ml-[50px] md:ml-[200px]">
             <slot />
         </div>
     </div>

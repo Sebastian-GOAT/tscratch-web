@@ -1,14 +1,14 @@
 <template>
-    <header class="px-8 w-full h-16 fixed top-0 left-0 flex justify-between items-center backdrop-blur-md">
+    <header class="px-8 w-full h-16 fixed top-0 left-0 flex justify-center md:justify-between items-center backdrop-blur-md">
 
         <!-- Logo -->
-        <NuxtLink href="/">
+        <NuxtLink href="/" class="hidden md:block">
             <Logo class="h-6" />
         </NuxtLink>
 
         <!-- Navigation -->
         <nav>
-            <ul class="hidden md:flex md:gap-8 lg:gap-16">
+            <ul class="flex gap-8 lg:gap-16">
                 <li v-for="link in links" :key="link.name" class="text-xl">
                     <NuxtLink
                         :href="link.href"
@@ -17,7 +17,7 @@
                         :target="link.target ?? '_self'"
                     >
                         <Icon :name="link.icon" size="md" />
-                        {{ link.name }}
+                        <span class="hidden md:block">{{ link.name }}</span>
                     </NuxtLink>
                 </li>
             </ul>
