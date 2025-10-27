@@ -43,20 +43,15 @@ useHead({
 </script>
 
 <style>
-@import 'github-markdown-css/github-markdown-light.css';
 @import 'github-markdown-css/github-markdown-dark.css';
 
 .markdown-body {
+    background-color: var(--bg);
+    color: var(--fg);
     box-sizing: border-box;
     min-width: 200px;
     max-width: 100%;
     margin: 0 auto;
     padding: 2rem;
-}
-
-.dark .markdown-body {
-    color-scheme: dark;
-    @import 'github-markdown-css/github-markdown-dark.css';
-    background-color: var(--bg);
 }
 </style>

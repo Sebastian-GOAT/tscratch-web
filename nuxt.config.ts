@@ -11,6 +11,15 @@ export default defineNuxtConfig({
     plugins: [tailwindcss(), viteSvgLoader()]
   },
 
+  nitro: {
+    prerender: {
+      routes: [
+        '/',
+        '/showcases'
+      ]
+    }
+  },
+
   colorMode: {
     classSuffix: ''
   },
