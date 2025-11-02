@@ -39,7 +39,7 @@ const showcases: Showcase[] = [
     {
         name: 'Snowflake Generator',
         short: 'snowflake-generator',
-        description: 'This is a generative program designed to create unique and intricate snowflake-like patterns. It often achieves its delicate structure by implementing the mathematical principles of the Koch curve or other algorithms that enforce hexagonal symmetry and recursive detail.',
+        description: 'This is a generative program designed to create a snowflake-like pattern. It often achieves its delicate structure by implementing the mathematical principles of a recursive algorithm that enforces symmetry and recursive detail.',
         img: '/images/snowflake-generator.png'
     },
     {
@@ -47,6 +47,24 @@ const showcases: Showcase[] = [
         short: 'abstract-art',
         description: 'This showcase is an example of generative art, which uses trigonometric functions and random number generation to produce unique, non-representational, and visually appealing compositions. It highlights the use of code as a creative artistic tool.',
         img: '/images/abstract-art.png'
+    },
+    {
+        name: 'Drawing',
+        short: 'drawing',
+        description: 'This showcase is an interactive drawing app, which lets you choose different colors and draw on the canvas. It showcases the use of the Pen sprite - its limitless usage',
+        img: '/images/drawing.png'
+    },
+    {
+        name: 'Particle Generator',
+        short: 'particle-generator',
+        description: 'This showcase shows simple particle generation, which uses trigonometric functions velocity vectors to make, cool looking particles like fireworks. It shows how you can use TScratch on another level.',
+        img: '/images/particle-generator.png'
+    },
+    {
+        name: 'Air hockey',
+        short: 'air-hockey',
+        description: 'This is a simple interactive simulation, where you can bounce a puck around the canvas, showing basic physics and collision detection, even though there are no built in helpers.',
+        img: '/images/air-hockey.png'
     }
 ];
 
