@@ -1,4 +1,5 @@
 <template>
+    <Analytics/>
     <UApp>
         <NuxtLayout>
             <NuxtPage />
@@ -41,3 +42,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 </style>
+
+<script setup lang="ts">
+import { Analytics } from '@vercel/analytics/nuxt';
+</script>
