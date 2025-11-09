@@ -31,6 +31,12 @@ const showcases: Showcase[] = [
         img: '/images/cube-renderer.png'
     },
     {
+        name: 'Perlin Noise',
+        short: 'perlin-noise',
+        description: 'This interactive Perlin noise demo shows a dynamic Cartesian graph that starts random and gradually smooths into flowing patterns. Each run is unique, illustrating how Perlin noise creates natural-looking, continuous variations from chaos.',
+        img: '/images/perlin-noise.png'
+    },
+    {
         name: 'Ball Bouncing',
         short: 'ball-bouncing',
         description: 'This simple yet fundamental project is a 2D physics simulation. It illustrates core concepts like gravity, velocity, and elastic collisions by calculating the path of a ball as it falls and bounces off surfaces, creating a realistic, continuous motion effect.',
