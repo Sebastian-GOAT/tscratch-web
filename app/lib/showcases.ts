@@ -25,6 +25,12 @@ const showcases: Showcase[] = [
         img: '/images/pyramid-fractal.png'
     },
     {
+        name: '3D Renderer',
+        short: 'cube-renderer',
+        description: 'This interactive 3D simulation demonstrates core graphics concepts, including custom 3D models, rotation, and projection. It renders objects in wireframe, allowing you to explore how vertices and edges define shapes in space, giving a hands-on understanding of 3D transformations and perspective.',
+        img: '/images/cube-renderer.png'
+    },
+    {
         name: 'Ball Bouncing',
         short: 'ball-bouncing',
         description: 'This simple yet fundamental project is a 2D physics simulation. It illustrates core concepts like gravity, velocity, and elastic collisions by calculating the path of a ball as it falls and bounces off surfaces, creating a realistic, continuous motion effect.',
