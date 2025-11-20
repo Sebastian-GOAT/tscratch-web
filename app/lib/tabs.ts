@@ -7,8 +7,9 @@ const tabs = [
     'collisions',
     'scenes',
     'sound',
+    'multiplayer',
     'showcases',
     'license'
-];
+] as const;
 
 export default tabs;

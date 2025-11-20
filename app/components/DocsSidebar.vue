@@ -26,7 +26,7 @@ import tabs from '~/lib/tabs';
 
 type Link = {
     name: string;
-    short: string;
+    short: (typeof tabs)[number];
     icon: string;
 };
 
@@ -67,6 +67,11 @@ const links: Link[] = [
         icon: 'uil:volume-up'
     },
     {
+        name: 'Multiplayer',
+        short: 'multiplayer',
+        icon: 'uil:user-arrows'
+    },
+    {
         name: 'Showcases',
         short: 'showcases',
         icon: 'uil:star'
@@ -83,8 +88,8 @@ const route = useRoute();
 
 const tab = computed(() => {
     const slug = route.query.tab;
-    const val = Array.isArray(slug) ? slug[0] : slug;
-    return tabs.includes(val ?? '')
+    const val = (Array.isArray(slug) ? slug[0] : slug) as typeof tabs[number] | undefined;
+    return tabs.includes(val ?? 'installation')
         ? val
         : 'installation';
 });
