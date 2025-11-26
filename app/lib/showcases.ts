@@ -13,6 +13,12 @@ const showcases: Showcase[] = [
         img: '/images/platformer.png'
     },
     {
+        name: 'Multiplayer Drawing',
+        short: 'multiplayer-drawing',
+        description: 'This live demo showcases a multiplayer drawing game running on the TScratch engine, highlighting real-time synchronization, smooth input handling, and low-latency updates. Players can draw simultaneously on a shared canvas, demonstrating the engine’s stability, precision, and seamless networked interaction.',
+        img: '/images/multiplayer-drawing.png'
+    },
+    {
         name: 'Tree Fractal',
         short: 'tree-fractal',
         description: 'This showcase is a classic visualization of an L-system fractal, created through a process of recursive branching that demonstrates the self-similarity found in natural structures like trees and ferns. It’s an excellent example of using simple rules to generate complex, organic-looking geometry.',
