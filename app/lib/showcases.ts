@@ -7,6 +7,12 @@ type Showcase = {
 
 const showcases: Showcase[] = [
     {
+        name: 'Platformer',
+        short: 'platformer',
+        description: 'This demo presents a simple four-level platformer built to highlight precise collision checks, smooth physics, and responsive movement. Each level shows different objects, and moving hazards, clearly demonstrating how the engine maintains stability, accuracy, and fluid control in every interaction.',
+        img: '/images/platformer.png'
+    },
+    {
         name: 'Tree Fractal',
         short: 'tree-fractal',
         description: 'This showcase is a classic visualization of an L-system fractal, created through a process of recursive branching that demonstrates the self-similarity found in natural structures like trees and ferns. It’s an excellent example of using simple rules to generate complex, organic-looking geometry.',
