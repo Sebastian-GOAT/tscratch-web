@@ -3,7 +3,7 @@
     <iframe
         v-if="showcases.find(s => s.short === slug)"
         :src="`/demos/${slug}/index.html`"
-        class="w-screen h-screen"
+        class="w-full h-screen"
         frameborder="0"
     />
 
@@ -27,3 +27,13 @@ const route = useRoute();
 const slug = route.params.slug as string;
 
 </script>
+
+<style>
+html, body, #__nuxt {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  overflow: hidden !important;
+}
+</style>

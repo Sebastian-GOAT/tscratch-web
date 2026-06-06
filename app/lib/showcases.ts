@@ -7,10 +7,10 @@ type Showcase = {
 
 const showcases: Showcase[] = [
     {
-        name: 'Platformer',
-        short: 'platformer',
-        description: 'This demo presents a simple four-level platformer built to highlight precise collision checks, smooth physics, and responsive movement. Each level shows different objects, and moving hazards, clearly demonstrating how the engine maintains stability, accuracy, and fluid control in every interaction.',
-        img: '/images/platformer.png'
+        name: 'Joystick support',
+        short: 'joystick',
+        description: 'This showcase demonstrates intuitive joystick-based character control with full mobile support, delivering smooth movement, responsive input, and seamless gameplay across touch devices. While multi-touch is not a feature yet, the current implementation provides a solid foundation for mobile gameplay.',
+        img: '/images/joystick.png'
     },
     {
         name: 'Multiplayer Drawing',
@@ -35,6 +35,12 @@ const showcases: Showcase[] = [
         short: 'pyramid-fractal',
         description: 'This program explores a three-dimensional fractal pattern based on a pyramid or a tetrahedron shape. It typically generates a version of the Sierpinski pyramid, where the basic shape is repeatedly divided and hollowed out at the center, demonstrating increasing complexity and infinite detail.',
         img: '/images/pyramid-fractal.png'
+    },
+    {
+        name: 'Platformer',
+        short: 'platformer',
+        description: 'This demo presents a simple four-level platformer built to highlight precise collision checks, smooth physics, and responsive movement. Each level shows different objects, and moving hazards, clearly demonstrating how the engine maintains stability, accuracy, and fluid control in every interaction.',
+        img: '/images/platformer.png'
     },
     {
         name: '3D Renderer',
